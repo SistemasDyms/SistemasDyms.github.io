@@ -83,3 +83,42 @@ html{
    height: 150px; 
    border-radius: 0 0 40px 0;
 }
+.header .header_boton
+{
+    position: absolute;
+    top:370px;
+    left: calc(50% - 70px);
+    display: block;
+    width: 160px;
+    height: 50px;
+    padding:15px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0,0,0, 0.50) ;
+    text-decoration: none;
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 1.4rem;
+    color: var(--warm-black);
+    text-align: center;
+}.colorDefault
+{
+    color:var(--grey);
+}
+main{
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background-color: var(--blancoComun);
+}
+.main_presentacion
+{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    text-align: center;
+}
+.main_presentacion .presentacion_boton
+{
+    width: 60%;
+}
