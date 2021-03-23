@@ -7,10 +7,11 @@
     --warm-black:#201E1C;
     --warm-black1:#282623; 
     --grey:#BABABA;
-    --off-white:#FAF8F7;
+    --off-white:#FAF9F8;
     --just-white:#FFFFFF;
     --blancoComun: #FAF9F8;
-    --tituloTexto:#1D2864;
+    --tituloTexto:#276DB4;
+    --titulosecundario:#1D2864;
  }
 
 
@@ -23,4 +24,62 @@
 html{
     font-size: 62.5%;
     text-decoration: none;
+    font-family: "roboto",sans-serif;
+    scroll-behavior: smooth;
+}
+.header{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 100%;
+    min-width: 320px;
+    height: 400px;
+    background-color: var(--off-white);
+}
+.header_barra
+{
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    height: 60px;
+    padding: 10px;
+    background-color: #FFF;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+}
+.header_barra__icono img
+{
+   width: 115px;
+   height: 50px;
+}
+.header_titulo
+{
+    width: 90%;
+    min-width: 280px;
+    max-width: 930px;
+    text-align: left;
+    align-self: center;
+    margin-left: 20px;
+    
+    
+}
+.header_titulo h1{
+    font-size: 2.6rem;
+    font-weight: 300;
+    line-height: 3rem;
+    color:var(--tituloTexto);
+
+}
+.header_titulo .colorTitulo
+{
+    color:var(--titulosecundario);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.header_fondo img{
+   width: 100%;
+   min-width: 320px;
+   height: 150px; 
+   border-radius: 0 0 40px 0;
 }
