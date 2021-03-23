@@ -1,0 +1,26 @@
+:root{
+    --azulPrimario : #28527a;/*fondos y algunos titulos*/
+    --azulSuave: #8ac4d0;
+    --azul:#009FA8;
+    --secondary-blue:#1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black:#201E1C;
+    --warm-black1:#282623; 
+    --grey:#BABABA;
+    --off-white:#FAF8F7;
+    --just-white:#FFFFFF;
+    --blancoComun: #FAF9F8;
+    --tituloTexto:#1D2864;
+ }
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    text-decoration: none;
+}
