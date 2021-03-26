@@ -118,7 +118,55 @@ main{
     padding-top: 30px;
     text-align: center;
 }
-.main_presentacion .presentacion_boton
+.main_presentacion .presentacion_titulo{
+    width: 80%;
+    min-width: 270px;
+    max-width: 930px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.TextoCode{
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.8rem;
+    color: var(--grey);
+    text-align: left;
+}
+
+.main_presentacion .presentacion_titulo h2{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+    margin-top: 20px;
+}
+.presentacion_TarjetaPerfil{
+    width: 290px;
+    min-width: 270px;
+    max-width: 450px;
+    height: 210px;
+    margin:  30px auto;
+    color: var(--just-white);
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.35);
+}
+.presentacion_TarjetaTecnica
 {
-    width: 60%;
+    width: 90%;
+    min-width: 320px;
+    height: auto;
+    margin:  30px auto;
+    position: relative;
+
+}
+.presentacion_TarjetaTecnica .presentacion_TarjetaTecnica__frontend , .presentacion_TarjetaTecnica__backend
+{
+    width: 70%;
+    min-width: 250px;
+    max-width: 400px;
+    height: 170px;
+    border-radius: 10px;
+    padding: 8px;
+    margin :  20px auto;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.35);
 }
