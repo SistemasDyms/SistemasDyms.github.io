@@ -1,0 +1,13 @@
+html{
+    font-size:80%;
+}
+.presentacion_TarjetaTecnica
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header .header_boton
+{
+    top: 480px;
+}

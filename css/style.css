@@ -34,7 +34,7 @@ html{
     justify-content:space-between;
     width: 100%;
     min-width: 320px;
-    height: 400px;
+    height: 100vh;
     background-color: var(--off-white);
 }
 .header_barra
@@ -87,9 +87,9 @@ html{
 {
     position: absolute;
     top:370px;
-    left: calc(50% - 80px);
+    left: calc(50% - 100px);
     display: block;
-    width: 170px;
+    width: 200px;
     height: 50px;
     padding:15px;
     background-color: #FFF;
@@ -101,7 +101,8 @@ html{
     line-height: 1.4rem;
     color: var(--warm-black);
     text-align: center;
-}.colorDefault
+}
+.colorDefault
 {
     color:var(--grey);
 }
