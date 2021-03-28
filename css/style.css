@@ -35,7 +35,21 @@ html{
     width: 100%;
     min-width: 320px;
     height: 100vh;
-    background-color: var(--off-white);
+   
+}
+.circulo
+{
+    position: absolute;
+    top: 50%;
+    left:-50%;
+    transform: translate(50%,-50%);
+    width: 300px;
+    height: 280px;
+    background-image: url('../assets/img/circulo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
 }
 .header_barra
 {
