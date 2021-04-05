@@ -43,7 +43,7 @@ html{
     top: 50%;
     left:-50%;
     transform: translate(50%,-50%);
-    width: 350px;
+    min-width: 280px;
     height: 300px;
     background-image: url('../assets/img/circulo.svg');
     background-position: center;
@@ -118,7 +118,7 @@ html{
 .header .header_boton
 {
     position: absolute;
-    top:400px;
+    top:450px;
     left: calc(50% - 100px);
     display: block;
     width: 200px;
@@ -211,6 +211,12 @@ main{
     box-shadow: 0 6px 8px  rgba(29, 40, 100, 0.35);
 
 }
+.presentacion_TarjetaTecnica__skills:hover
+{
+    background-color: var(--just-white);
+    box-shadow: 0 10px 12px  rgba(29, 40, 100, 0.35);
+
+}
 .presentacion_TarjetaTecnica__skills img
 {
     width: 128px;
@@ -222,7 +228,7 @@ main{
 {
     position: absolute;
     left: calc(25% - 60px);
-    top: calc(3% - 16px);       
+    top: calc(3% - 20px);       
     width: 120px;
     padding: 6px;
     height: 30px;
