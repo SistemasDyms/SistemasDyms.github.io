@@ -85,6 +85,38 @@ html{
    font-size: 4rem;
    color:#009FA8;
 }
+.header_menu
+{
+    position: absolute;
+    width: 280px;
+    max-width: 320px;
+    height: 300px;
+    background-color: var(--just-white);
+    padding: 20px;
+    top: 60px;
+    left: -100%;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.25);
+}
+.header_menu__items ul
+{
+    width: 200px;
+    list-style: none;
+}
+.header_menu__items ul li
+{
+    
+
+}
+.header_menu__items ul li a
+{
+    text-decoration: none;
+    font-size: 2.6rem;
+    font-weight: 500;
+    height: 2.2rem;
+    color: var(--tituloTexto);
+
+
+}
 .header_titulo
 {
     width: 90%;
