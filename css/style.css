@@ -62,6 +62,11 @@ html{
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.25);
     justify-content: space-between;
 }
+.header_barra__menu
+{
+    font-size: 3rem;
+    color:var(--titulosecundario);
+}
 .header_barra__icono img
 {
    width: 115px;
@@ -72,6 +77,7 @@ html{
     width: 100px;
     height: 60px;
     align-self: center;
+
 }
 .header_barra__social li
 {
@@ -88,8 +94,8 @@ html{
 .header_menu
 {
     position: absolute;
-    width: 280px;
-    max-width: 320px;
+    width: 80%;
+    max-width: 100%;
     height: 300px;
     background-color: var(--just-white);
     padding: 20px;
@@ -102,11 +108,7 @@ html{
     width: 200px;
     list-style: none;
 }
-.header_menu__items ul li
-{
-    
 
-}
 .header_menu__items ul li a
 {
     text-decoration: none;
@@ -129,7 +131,7 @@ html{
     
 }
 .header_titulo h1{
-    font-size: 2.6rem;
+    font-size: 3.2rem;
     font-weight: 300;
     line-height: 3rem;
     color:var(--tituloTexto);
@@ -211,10 +213,11 @@ main{
     margin-top: 20px;
 }
 .presentacion_TarjetaPerfil{
-    width: 290px;
+    width: 90%;
     min-width: 270px;
-    max-width: 450px;
-    height: 210px;
+    max-width: 600px;
+    height: 250px;
+    max-height: 500px;
     margin:  30px auto;
     color: var(--just-white);
     border-radius: 10px;
@@ -234,7 +237,7 @@ main{
 {
     position: relative;
     width: 70%;
-    min-width: 250px;
+    min-width: 300px;
     max-width: 400px;
     height: 210px;
     border-radius: 10px;
@@ -282,3 +285,20 @@ main{
 
 }
 
+.img-sistemas
+{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url("../assets/img/IconoWeb.png") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sig
+{
+    width: 100%;
+    height: 500px;
+    background-color: #FFF;
+}

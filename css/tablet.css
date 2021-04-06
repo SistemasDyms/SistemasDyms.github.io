@@ -27,5 +27,9 @@ html{
 }
 .header_menu
 {
-    display: none;
+    
+}
+.header_menu ul
+{
+    width: 300px;
 }
