@@ -97,10 +97,29 @@ html{
 }
 .header_barra__social
 {
-    width: 100px;
+    width: 170px;
     height: 60px;
     align-self: center;
 
+}
+.mail_contacto{
+    position: relative;
+}
+.mail_contacto__data{
+    display: none;
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 30px;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    color:#FFF;
+    background-color:var(--titulosecundario);
+    transition: ease-in-out 1s;
+}
+.mail_contacto:hover .mail_contacto__data{
+    display: block;
 }
 .header_barra__social li
 {
