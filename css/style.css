@@ -350,9 +350,7 @@ main{
     height: 400px;
     padding: 20px;
     margin: 30px auto;
-    text-align: center;
-  
-  
+    text-align: center;  
 }
 .main_portafolio__titulo
 {
@@ -391,11 +389,14 @@ main{
     text-align: justify;
    
 }
+.portafolio__img
+{
+    z-index: 3;
+}
 .portafolio__img img
 {
-    display: block;
+    margin: 0 auto;
     border-radius: 10px;
-    
     z-index:2;
 
    
