@@ -27,6 +27,29 @@ html{
     font-family: "roboto",sans-serif;
     scroll-behavior: smooth;
 }
+
+.overlay{
+	position                    : absolute;
+	background-color            :rgba(0,0,0,0.8); 
+	top                         : 0;
+	bottom                      : 0;
+	left                        : 0;
+	right                       : 0;
+	z-index: 1;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .header{
     position: relative;
     display:flex;
@@ -299,11 +322,12 @@ main{
 }
 .main_portafolio
 {
-    
+    position: relative;
     width: 100%;
     min-width: 320px;
     height: auto;
     text-align: center;
+    
 }
 .main_portafolio_container
 {
@@ -311,6 +335,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .main_portafolio__proyecto
@@ -326,23 +351,37 @@ main{
     padding: 20px;
     margin: 30px auto;
     text-align: center;
+  
+  
+}
+.main_portafolio__titulo
+{
+    margin-top: 100px;
+    
+}
+.main_portafolio__titulo h2
+{
+    margin-bottom: 50px;
+    
 }
  .main_portafolio__proyecto:hover
 {
-	height          : 400px;
-	background-color: rgba(0, 132, 195,0.2);
+
 }
 .main_portafolio__proyecto hr{
     display: block;
     width: 200px;
     margin: 0 auto;
+    overflow: hidden;
+    z-index: 2;
 }
 .main_portafolio__proyecto h3
 {
+  
     font-size: 2rem;
     font-weight: 500;
     line-height: 1.8rem;
-    
+  
 }
 .main_portafolio__proyecto p
 {
@@ -350,8 +389,14 @@ main{
     font-weight: 300;
     line-height: 1.8rem;
     text-align: justify;
+   
 }
 .portafolio__img img
 {
+    display: block;
     border-radius: 10px;
+    
+    z-index:2;
+
+   
 }
