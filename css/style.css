@@ -208,7 +208,7 @@ main{
     height: auto;
     padding-top: 30px;
     text-align: center;
-
+    background-color: #FFF;  
 }
 
 .main_presentacion > h4
@@ -352,6 +352,7 @@ main{
     margin: 30px auto;
     text-align: center;  
 }
+
 .main_portafolio__titulo
 {
     margin-top: 100px;
@@ -387,6 +388,7 @@ main{
     font-weight: 300;
     line-height: 1.8rem;
     text-align: justify;
+
    
 }
 .portafolio__img
