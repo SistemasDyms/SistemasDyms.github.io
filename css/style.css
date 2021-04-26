@@ -206,7 +206,7 @@ html{
 .header_titulo .colorTitulo
 {
     color:var(--titulosecundario);
-    font-size: 2.2rem;
+    font-size: 3.2rem;
     font-weight: bold;
 }
 .header_fondo_pie img{

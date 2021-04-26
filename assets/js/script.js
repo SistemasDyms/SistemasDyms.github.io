@@ -17,22 +17,13 @@
     }
 });
 });
-/*
-function myFunction() {
-    
-    var menu = document.getElementById("menu");
-    var contador = 1
-    if (contador == 1 ) {
-      $("#menu").animate({
-        left:'0'
-      });
-        contador = 0;
-    } else {
-      contador = 1;
-      $("#menu").animate({
-        left:'-100%'
-      });
-    }
-}
 
- */
+const typed = new Typed('.typed',{
+  strings : ['Desarrollador Web Junior','Responsable','Autodidacta','Comprometido'], 
+  smartBackspace : true,
+  typeSpeed : 100,
+  backSpeed : 100 , 
+  loop: true,
+  cursorChar: ' |',
+  contentType : 'html'
+});
