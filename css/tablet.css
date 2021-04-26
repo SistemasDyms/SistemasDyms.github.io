@@ -4,8 +4,14 @@ html{
 .presentacion_TarjetaTecnica
 {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+}
+.presentacion_TarjetaTecnica__skills
+{
+    height: 60%;
 }
 .header .header_boton
 {
@@ -25,10 +31,6 @@ html{
     background-size: cover;
     z-index: -1;
 }
-.header_menu
-{
-    
-}
 .header_menu ul
 {
     width: 300px;
@@ -37,4 +39,13 @@ html{
 {
     flex-direction: row;
 
+}
+.header_titulo
+{
+    max-width: 600px;
+    top:20%;
+}
+.header_titulo h1{
+    font-size: 5.2rem;
+    line-height: 5rem;
 }

@@ -58,7 +58,21 @@ html{
     width: 100%;
     min-width: 320px;
     height: 100vh;
+    background-color: #101010;
+    
    
+}
+.header .header_fondo{
+    height: 100vh;
+    background-image: url('../assets/img/fondoHeader.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(66% 0, 100% 0%, 100% 100%, 32% 100%);
+    /*clip-path: polygon(0 0, 21% 0, 100% 100%, 0% 100%);*/
+    opacity: 0.4;
+    filter: blur(2px);
+    box-shadow: 10px 10px 5px rgba(19,19,19,0.5);
 }
 .circulo
 {
@@ -71,7 +85,7 @@ html{
     background-image: url('../assets/img/circulo.svg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: header_titulo;
     z-index: -1;
 }
 .header_barra
@@ -89,6 +103,7 @@ html{
 {
     font-size: 3rem;
     color:var(--titulosecundario);
+    cursor: pointer;
 }
 .header_barra__icono img
 {
@@ -100,7 +115,8 @@ html{
     width: 170px;
     height: 60px;
     align-self: center;
-
+    margin-left:15px;
+    margin-top:7px;
 }
 .mail_contacto{
     position: relative;
@@ -117,6 +133,7 @@ html{
     color:#FFF;
     background-color:var(--titulosecundario);
     transition: ease-in-out 1s;
+    z-index: 1;
 }
 .mail_contacto:hover .mail_contacto__data{
     display: block;
@@ -131,13 +148,13 @@ html{
 .header_barra__social li a
 {
    font-size: 4rem;
-   color:#7AC5F0;
+   color:var(--titulosecundario);
 }
 
 .header_menu
 {
     position: absolute;
-    width: 80%;
+    width: 70%;
     max-width: 100%;
     height: 300px;
     background-color: var(--just-white);
@@ -145,6 +162,7 @@ html{
     top: 60px;
     left: -100%;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10000;
 }
 .header_menu__items ul
 {
@@ -159,34 +177,39 @@ html{
     font-weight: 500;
     height: 2.2rem;
     color: var(--tituloTexto);
+    transition: ease 1seg;
 
-
+}
+.header_menu__items ul li a:hover
+{
+    text-decoration: underline;
 }
 .header_titulo
 {
-    width: 90%;
+    position: absolute;
+    width: 50%;
     min-width: 280px;
     max-width: 930px;
     text-align: left;
     align-self: center;
     margin-left: 20px;
-    
-    
+    top:30%;
+    left: 0%;
 }
 .header_titulo h1{
     font-size: 3.2rem;
-    font-weight: 300;
+    font-weight: 600;
     line-height: 3rem;
     color:var(--tituloTexto);
-
+    font-family: "nunito";
 }
 .header_titulo .colorTitulo
 {
     color:var(--titulosecundario);
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: bold;
 }
-.header_fondo img{
+.header_fondo_pie img{
    width: 100%;
    min-width: 320px;
    height: 150px; 
@@ -195,21 +218,24 @@ html{
 .header .header_boton
 {
     position: absolute;
-    top:450px;
-    left: calc(50% - 120px);
+    top:490px;
+    left: calc(50% - 100px);
     display: block;
-    width: 240px;
+    width: 200px;
     height: 50px;
-    padding:15px;
+    padding:9px;
     background-color: #FFF;
     border-radius: 10px;
-    box-shadow: 0 6px 10px rgba(0,0,0, 0.50) ;
     text-decoration: none;
     font-size: 2.2rem;
     font-weight: bold;
-    line-height: 1.4rem;
     color: var(--warm-black);
     text-align: center;
+    transition : 0.5;
+}
+.header .header_boton:hover
+{
+    box-shadow: 0 9px 14px rgba(0,0,0, 0.50) ;
 }
 .colorDefault
 {
@@ -227,7 +253,11 @@ main{
     height: auto;
     padding-top: 30px;
     text-align: center;
-    background-color: #FFF;  
+    /* background-image: url("../assets/img/headerback.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
 }
 
 .main_presentacion > h4
@@ -240,6 +270,7 @@ main{
     max-width: 930px;
     margin: 0 auto;
     margin-top: 20px;
+    
 }
 .TextoCode{
     font-size: 1.6rem;
@@ -250,50 +281,56 @@ main{
 }
 
 .main_presentacion .presentacion_titulo h2 ,.main_portafolio__titulo h2{
-    font-size: 2.4rem;
-    font-weight: bold;
-    line-height: 2.4rem;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 3.2rem;
     margin-top: 20px;
+    font-family: "nunito";
+    color:var(--tituloTexto);
 }
 .presentacion_TarjetaPerfil{
     width: 90%;
     min-width: 270px;
-    max-width: 600px;
+    max-width: 300px;
     height: 250px;
     max-height: 500px;
-    margin:  30px auto;
+    margin:  30px auto ;
     color: var(--just-white);
-    border-radius: 10px;
     padding: 8px;
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.35);
 }
 .presentacion_TarjetaTecnica
 {
     width: 100%;
     min-width: 320px;
-    height: auto;
-    margin:  45px auto;
+    height: 80vh;
+    margin:  0 auto;
     position: relative;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: url("../assets/img/backskills.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   /*  box-shadow: 0px 6px 8px  rgba(29, 40, 100, 0.35); */
 }
 .presentacion_TarjetaTecnica__skills
 {
     position: relative;
     width: 70%;
     min-width: 300px;
-    max-width: 400px;
+    max-width: 600px;
     height: 210px;
     border-radius: 10px;
     padding: 8px;
     margin :  20px auto;
-    box-shadow: 0 6px 8px  rgba(29, 40, 100, 0.35);
-
+    box-shadow: 6px 6px 8px  rgba(29, 40, 100, 0.35);
+    background-color: var(--blancoComun);
 }
 .presentacion_TarjetaTecnica__skills:hover
 {
     background-color: var(--just-white);
     box-shadow: 0 10px 12px  rgba(29, 40, 100, 0.35);
-
 }
 .presentacion_TarjetaTecnica__skills img
 {
@@ -306,7 +343,7 @@ main{
 {
     position: absolute;
     left: calc(25% - 60px);
-    top: calc(3% - 20px);       
+    top: calc(7% - 20px);       
     width: 120px;
     padding: 6px;
     height: 30px;
@@ -315,7 +352,6 @@ main{
     line-height: 1.8rem;
     color: var(--tituloTexto);
     margin-bottom: 20px;
-
 }
 .presentacion_TarjetaTecnica__skills p
 {
@@ -325,20 +361,31 @@ main{
     margin-top: 20px;
     font-size: 1.4rem;
     text-transform: capitalize;
-
 }
 
 .img-sistemas
 {
     width: 100%;
     min-width: 320px;
-    height: 50vh;
-    background-image: url("../assets/img/IconoWeb.png") ;
+    height: 60vh;
+    background-image: url("../assets/img/fondoHeader.PNG") ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
+    
 }
+.prueba
+{
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/prueba.svg") ;
+    background-size: initial ;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
 .main_portafolio
 {
     position: relative;
