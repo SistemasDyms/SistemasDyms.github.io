@@ -326,6 +326,21 @@ main{
     margin :  20px auto;
     box-shadow: 6px 6px 8px  rgba(29, 40, 100, 0.35);
     background-color: var(--blancoComun);
+    border-bottom: 2px solid var(--tituloTexto); ;
+}
+.presentacion_skills
+{
+    position: absolute;
+    width: 150px;
+    top: 40px;
+}
+.presentacion_skills li
+{
+    list-style: none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    text-align: left;
+    color: var(--warm-black);
 }
 .presentacion_TarjetaTecnica__skills:hover
 {
@@ -337,7 +352,8 @@ main{
     width: 128px;
     height: 90px;
     position: absolute;
-    right: 30px;
+    right: 20px;
+    top: 40px;
 }
 .presentacion_TarjetaTecnica__skills .titulo_skill
 {
@@ -353,15 +369,7 @@ main{
     color: var(--tituloTexto);
     margin-bottom: 20px;
 }
-.presentacion_TarjetaTecnica__skills p
-{
-    width: 60%;
-    height: auto;
-    padding: 10px 3px;
-    margin-top: 20px;
-    font-size: 1.4rem;
-    text-transform: capitalize;
-}
+
 
 .img-sistemas
 {

@@ -49,3 +49,14 @@ html{
     font-size: 5.2rem;
     line-height: 5rem;
 }
+.presentacion_skills
+{
+    position: absolute;
+    width: 130px;
+    border: 1px solid red;
+    top: 30px;
+}
+.presentacion_skills li
+{
+    list-style: none;
+}
