@@ -112,7 +112,7 @@ html{
 }
 .header_barra__social
 {
-    width: 170px;
+    width: 200px;
     height: 60px;
     align-self: center;
     margin-left:15px;
@@ -147,7 +147,7 @@ html{
 }
 .header_barra__social li a
 {
-   font-size: 4rem;
+   font-size: 3.5rem;
    color:var(--titulosecundario);
 }
 
@@ -355,6 +355,7 @@ main{
     right: 20px;
     top: 40px;
 }
+
 .presentacion_TarjetaTecnica__skills .titulo_skill
 {
     position: absolute;
@@ -474,6 +475,76 @@ main{
     margin: 0 auto;
     border-radius: 10px;
     z-index:2;
+}
 
-   
+.main_Contacto
+{
+    width: 100%;
+    max-height: 100vh;
+    background-color: #201E1C;
+}
+.main_contacto__container ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+}
+.main_contacto__container ul li
+{
+    list-style: none;    
+}
+.main_contacto__container ul li a
+{
+    text-decoration: none;
+    font-size: 7rem;
+    color: #FFF;  
+}
+.main_contacto__description
+{
+    display: block;
+    color: var(--just-white);
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 5px;
+}
+.git:hover
+{
+    border-bottom: 2px solid #2C974B;
+}
+.twitter:hover
+{
+    border-bottom: 2px solid #1DA1F2;
+    color:#1DA1F2;
+}
+.mail:hover
+{
+    border-bottom: 2px solid #FFF;
+}
+.in:hover
+{
+    border-bottom: 2px solid #0A66C2;
+    color:#0A66C2;
+}
+.footer 
+{
+    width: 100%;
+    height: 20vh;
+    background-color: #101010;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.footer i
+{
+    color:red;
+}
+.footer p 
+{
+    color: var(--just-white);
+    font-size: 1.3rem;
+    font-weight: 300;
 }

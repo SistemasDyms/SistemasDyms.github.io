@@ -52,11 +52,39 @@ html{
 .presentacion_skills
 {
     position: absolute;
-    width: 130px;
-    border: 1px solid red;
+    width: 250px;
     top: 30px;
 }
 .presentacion_skills li
 {
     list-style: none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    text-align: left;
+    color: var(--warm-black);
+    margin-left: 10px;
+    padding: 2px;
+}
+.presentacion_TarjetaTecnica__skills  img{
+    width: 180px;
+    height: 140px;
+    
+    right: 20px;
+    top: 40px;
+
+}
+.main_Contacto
+{
+    height: 50vh;
+}
+.main_contacto__container ul
+{
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+.footer 
+{   
+    height: 10vh;
+    flex-direction: row;
 }
