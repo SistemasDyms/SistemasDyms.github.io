@@ -449,16 +449,15 @@ main{
 .main_portafolio__proyecto h3
 {
   
-    font-size: 2rem;
     font-weight: 500;
     line-height: 1.8rem;
   
 }
 .main_portafolio__proyecto h3 a
 {
-  
+    font-size: 2.6rem;
     text-decoration: none;
-    color: #000;
+    color: var(--titulosecundario);
     font-weight: 300;
   
 }
@@ -547,9 +546,15 @@ main{
 {
     color:red;
 }
-.footer p 
+.footer p,a 
 {
     color: var(--just-white);
     font-size: 1.3rem;
     font-weight: 300;
+    text-decoration: none;
 }
+.footer a 
+{
+    color:var(--tituloTexto);
+}
+
