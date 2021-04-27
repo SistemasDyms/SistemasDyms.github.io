@@ -438,10 +438,7 @@ main{
     margin-bottom: 50px;
     
 }
- .main_portafolio__proyecto:hover
-{
 
-}
 .main_portafolio__proyecto hr{
     display: block;
     width: 200px;
@@ -455,6 +452,14 @@ main{
     font-size: 2rem;
     font-weight: 500;
     line-height: 1.8rem;
+  
+}
+.main_portafolio__proyecto h3 a
+{
+  
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
   
 }
 .main_portafolio__proyecto p
