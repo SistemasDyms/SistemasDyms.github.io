@@ -57,11 +57,11 @@ html{
 }
 .presentacion_TarjetaPerfil{
     flex-direction: row;
+    justify-content: center;
     width: 90%;
     min-width: 270px;
-    max-width: 300px;
-    height: 50vh;
-    border: 1px solid red;
+    max-width: 900px;
+    height: 60vh;
     margin: 0 auto;
 }
 .presentacion_skills li
@@ -77,7 +77,6 @@ html{
 .presentacion_TarjetaTecnica__skills  img{
     width: 180px;
     height: 140px;
-    
     right: 20px;
     top: 40px;
 
