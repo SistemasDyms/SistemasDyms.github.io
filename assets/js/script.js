@@ -19,7 +19,7 @@
 });
 
 const typed = new Typed('.typed',{
-  strings : ['Desarrollador Web Junior','Responsable','Autodidacta','Comprometido'], 
+  strings : ['Entusiasta','Autodidacta','Comprometido'], 
   smartBackspace : true,
   typeSpeed : 100,
   backSpeed : 100 , 
