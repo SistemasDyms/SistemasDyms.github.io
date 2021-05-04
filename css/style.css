@@ -252,7 +252,7 @@ main{
     height: auto;
     padding-top: 30px;
     text-align: center;
-    background-color: background-image: linear-gradient(to bottom, #ffffff, #fefefe, #fdfdfd, #fdfbfc, #fcfafa, #fcfafa, #fcfafa, #fcfafa, #fdfbfc, #fdfdfd, #fefefe, #ffffff);;
+    background-image: linear-gradient(to bottom, #ffffff, #fefefe, #fdfdfd, #fdfbfc, #fcfafa, #fcfafa, #fcfafa, #fcfafa, #fdfbfc, #fdfdfd, #fefefe, #ffffff);;
     /* background-image: url("../assets/img/headerback.svg");
     background-position: center;
     background-repeat: no-repeat;
