@@ -17,23 +17,14 @@ html{
 {
     top: 480px;
 }
-.circulo
-{
-    position: absolute;
-    top: 40%;
-    left:-10%;
-    transform: translate(50%,-50%);
-    width: 450px;
-    height: 400px;
-    background-image: url('../assets/img/circulo.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-}
+
 .header_menu ul
 {
     width: 300px;
+}
+.header_barra__social li
+{
+    width: 3.2rem;
 }
 .main_portafolio_container
 {
